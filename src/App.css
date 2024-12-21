@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+/* General Reset and Dark Mode */
+body {
+  margin: 0;
+  
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Default Light Mode */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #f4d03f;
+  --secondary-color: #0b5345;
+  --card-bg: #ecf0f1;
+}
+
+/* Dark Mode */
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --card-bg: #2c3e50;
+}
+
+/* Light Mode */
+.light-mode {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #ecf0f1;
+}
